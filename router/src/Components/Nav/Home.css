@@ -1,0 +1,60 @@
+#container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 45px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px #ccc, 5px 5px 10px #ccc;
+}
+#user {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+#email {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+#password {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+button {
+    width: 40%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: rgb(158, 102, 210);
+}
+h2 {
+    text-align: center;
+}
+body {
+    background-color: #f0f0f0;
+}
+#form-error {
+    text-align: center;
+    color: red;
+}

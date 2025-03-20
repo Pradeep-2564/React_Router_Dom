@@ -1,0 +1,29 @@
+.nav-container{
+    height: 11vh;
+    background-color: #321d1d;
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style: none;
+}
+li{
+    margin-top: 20px;
+}
+
+.active-link{
+    color: white;
+    text-decoration: none;
+    border: 1.5px solid #ccc;
+    padding: 5px 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.active-link{
+    color: black;
+}
+.no-active {
+    color: white;
+    text-decoration: none;
+}
